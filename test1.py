@@ -1,6 +1,5 @@
 # Hello Python
-a = "Emma"
-b = 19
+a = input("Enter your name: ")
+b = input("Input your city: ")
 
-print(a)
-print(b)
+print('{}{}'.format(a, " is from ", b))
